@@ -2,7 +2,7 @@ title: SW.Seo
 email: sw32.seo@gmail.com
 description: AI, Chemistry and Biology
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "sw32-seo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sw32-seo
 remote_theme: jekyll/minima
 plugins:
