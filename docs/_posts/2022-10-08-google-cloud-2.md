@@ -55,9 +55,11 @@ gcloud compute os-login ssh-keys add \
 다음으로 인스턴스가 실행중일때 `gcloud compute config-ssh`를 입력하면 실행중인 인스턴스에 대한 정보를 받아와서 `.ssh/config`에 등록해줍니다.
 
 마지막으로 `config`에 등록된 정보는 VScode Remote SSH extention을 설치하신 분이라면 우측에서 쉽게 찾아볼 수 있게 됩니다.
-![vscode_remote](../assets/images/remote_ssh.png)
+![vscode_remote](/assets/images/remote_ssh.png)
 
 `gcloud`를 사용하지 않으시려면 [링크](https://cloud.google.com/compute/docs/connect/ssh-using-third-party-tools)를 확인하시면 ssh 명령어를 통해 접속하는 방법이 잘 나와있습니다.
 
 # 마치며
 이렇게 VS code로 해당 인스턴스에 접속하고 나면 원하는 환경을 세팅하고 학습을 진행할 수 있게 됩니다. CUDA가 설치된 OS를 선택하셨다면 아마 GPU driver도 잘 설정되어 있어서 바로 사용하실 수 있습니다. 그나저나 Vertex AI는 언제 써볼 수 있을까요? ㅠㅠ
+
+[Google Cloud 정착기-1]({% link _posts/2022-10-07-google-cloud-1.md %})

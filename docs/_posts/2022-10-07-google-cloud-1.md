@@ -53,3 +53,5 @@ Google Cloud는 A100이 가장 좋은 GPU이고 4개를 on-demend로 사용한�
 그래서 결론적으로는 Google Cloud을 먼저 써보기로 하였습니다. 글을 쓰다보니 내가 왜 AWS를 안쓰고 Google Cloud를 썼나 싶기는 하네요;; 
 
 다음 글에서는 Google Cloud에서 Compute Engine과 Vertex AI를 세팅하면서 생긴 삽질을 공유해볼까 합니다.
+
+[Google Cloud 정착기-2]({% link _posts/2022-10-08-google-cloud-2.md %})
