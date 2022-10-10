@@ -58,6 +58,7 @@ gcloud compute os-login ssh-keys add \
 
 마지막으로 `config`에 등록된 정보는 VScode Remote SSH extention을 설치하신 분이라면 우측에서 쉽게 찾아볼 수 있게 됩니다.
 ![vscode_remote](/assets/images/remote_ssh.png)
+VScode로 접속하려면 `config`에 `User USERNAME`을 추가해 줍니다. `USERNAME`은 접속한 이메일 주소에서 알파벳이 아닌 것을 모두 underbar(_)로 바꾼 것입니다. 예를 들어 `john.kim@gmail.com`이면 `USERNAME`에는 `john_kim_gmail_com`을 적으시면 됩니다.
 
 `gcloud`를 사용하지 않으시려면 [링크](https://cloud.google.com/compute/docs/connect/ssh-using-third-party-tools)를 확인하시면 ssh 명령어를 통해 접속하는 방법이 잘 나와있습니다.
 
