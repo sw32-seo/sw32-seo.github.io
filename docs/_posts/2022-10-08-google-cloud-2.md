@@ -32,6 +32,8 @@ Region은 V100을 사용할 수 있는 곳이면 되는데 아쉽게도 서울�
 
 그 다음으로 저는 VScode를 통해서 접속하여 사용할 것이어서 OS login 설정을 열어두었습니다([link](https://cloud.google.com/compute/docs/oslogin/set-up-oslogin)에서 옵션 3 참조). 기타 설정이 끝났다면 만들기를 눌러서 VM 인스턴스를 띄웁니다.
 
+마지막으로 VM 인스턴스를 웹브라우저를 통한 SSH 접속을 하면 gpu driver를 설치하겠냐고 물어봅니다. y를 누르면 설치를 진행하고 온라인에서 해야하는 일은 모두 끝납니다.
+
 # 로컬 환경 세팅
 ## Google Cloud CLI 설치 및 SSH 키 등록
 `gcloud`로 시작하는 CLI는 다양한 기능을 제공합니다. 특히 ssh키를 만들고 config에 넣어주고 VM에 등록해주는 기능이 있어서 필수라고 할 수 있죠. 
@@ -61,5 +63,7 @@ gcloud compute os-login ssh-keys add \
 
 # 마치며
 이렇게 VS code로 해당 인스턴스에 접속하고 나면 원하는 환경을 세팅하고 학습을 진행할 수 있게 됩니다. CUDA가 설치된 OS를 선택하셨다면 아마 GPU driver도 잘 설정되어 있어서 바로 사용하실 수 있습니다. 그나저나 Vertex AI는 언제 써볼 수 있을까요? ㅠㅠ
+
+참고로 해당 인스턴스를 정지했다가 재시작하면 GPU driver가 설치되어있지 않은채로 재시작합니다. 그럴때는 `sudo /opt/deeplearning/install-driver.sh`를 입력하면 다시 설치할 수 있습니다.
 
 [Google Cloud 정착기-1]({% link _posts/2022-10-07-google-cloud-1.md %})
