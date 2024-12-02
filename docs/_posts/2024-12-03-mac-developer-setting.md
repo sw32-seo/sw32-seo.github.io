@@ -3,7 +3,7 @@ layout: post
 title:  "Mac Developer Setting"
 ---
 
-# Nico 쌤의 개발자 세팅 따라하기
+## Nico 쌤의 개발자 세팅 따라하기
 
 최근 NomadCoder로 유명한 니꼴라스 쌤의 강의를 듣고 있다. 그런데 동영상에서 보이는 니꼴라스 쌤의 터미널 화면은 내 밋밋한 화면에 비해서 다양한 customization이 되어있었다.
 하지만 딱히 찾아볼 시간은 없어서 안했는데 어떤 분이 그 세팅을 물어봤고 니꼬 쌤은 이미 [유튜브](https://www.youtube.com/watch?v=B26yiuC5zPM)에 공유를 해놓으셨다. ㅎㅎ
