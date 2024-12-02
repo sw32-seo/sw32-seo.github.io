@@ -2,7 +2,7 @@
 layout: default
 title: About
 ---
-# About page
+## About page
 
 My name is Seung-woo Seo, CTO of AinB science.
 
