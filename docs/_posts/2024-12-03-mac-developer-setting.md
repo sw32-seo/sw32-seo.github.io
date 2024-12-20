@@ -13,15 +13,16 @@ title:  "Mac Developer Setting"
 정리해보자면,
 
 1. Homebrew 설치
-2. iTerm2 preference>
-3. (oh my zsh 설치)는 생략해도 될 듯 하다. 결국 `powerlevel10k`를 설치하고자 하는 것인데 homebrew를 통해서 설치가 가능하다.
-4. 아래 코드 실행
+2. Set iTerm2 `Preferences > Appearance > General > Theme` to `Minimal`
+3. Check iTerm2 `Preferences > Profile > Session > Status bar enabled` and configure it.
+4. (oh my zsh 설치)는 생략해도 될 듯 하다. 결국 `powerlevel10k`를 설치하고자 하는 것인데 homebrew를 통해서 설치가 가능하다.
+5. 아래 코드 실행
 
     ```sh
     brew install powerlevel10k
     echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
     ```
 
-5. iterm2 재실행 및 `powerlevel10k` 설정
-6. vscode의 *Settings*에서 `terminal.integrated.fontFamily`을 검색하고 해당 부분의 value를 `MesloLGS NF`로 변경한다.
-7. MesloLGS NF font가 없는 경우에는 [링크](https://github.com/romkatv/powerlevel10k/issues/671#issuecomment-621031981)에서 하라는 대로 다운 받아서 하면 된다.
+6. iterm2 재실행 및 `powerlevel10k` 설정
+7. vscode의 *Settings*에서 `terminal.integrated.fontFamily`을 검색하고 해당 부분의 value를 `MesloLGS NF`로 변경한다.
+8. MesloLGS NF font가 없는 경우에는 [링크](https://github.com/romkatv/powerlevel10k/issues/671#issuecomment-621031981)에서 하라는 대로 다운 받아서 하면 된다.
