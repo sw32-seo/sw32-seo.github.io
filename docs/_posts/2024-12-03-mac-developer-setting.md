@@ -23,6 +23,5 @@ title:  "Mac Developer Setting"
     ```
 
 5. iterm2 재실행 및 `powerlevel10k` 설정
-6. [링크](https://github.com/romkatv/powerlevel10k/issues/671#issuecomment-621031981)에서 하라는 대로 vscode 설정 변경
-
-이면 된다.
+6. vscode의 *Settings*에서 `terminal.integrated.fontFamily`을 검색하고 해당 부분의 value를 `MesloLGS NF`로 변경한다.
+7. MesloLGS NF font가 없는 경우에는 [링크](https://github.com/romkatv/powerlevel10k/issues/671#issuecomment-621031981)에서 하라는 대로 다운 받아서 하면 된다.
