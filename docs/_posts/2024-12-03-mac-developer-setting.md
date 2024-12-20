@@ -2,6 +2,8 @@
 layout: post
 title:  "Mac Developer Setting"
 ---
+- [Nico 쌤의 개발자 세팅 따라하기](#nico-쌤의-개발자-세팅-따라하기)
+- [How to](#how-to)
 
 ## Nico 쌤의 개발자 세팅 따라하기
 
@@ -11,6 +13,8 @@ title:  "Mac Developer Setting"
 이 좋은걸 이제 알게 되었다니.. 아직 세상엔 배울게 많은 것 같다.
 
 정리해보자면,
+
+## How to
 
 1. Homebrew 설치
 2. Set iTerm2 `Preferences > Appearance > General > Theme` to `Minimal`
